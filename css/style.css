@@ -219,5 +219,10 @@ i{
     font-size: 21px;
     font-weight: 500;
     }
+  #know-button {
+    font-size: 10px;
+    font-weight: 500;
+    width: 32%;
+    }
 }
 
