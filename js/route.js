@@ -29,7 +29,6 @@ app.controller("headerCtrl", function ($scope) {
         var navLists = document.querySelectorAll("a[href^='#'] p");
         angular.forEach(navLists, function (a) {
             a = angular.element(a);
-            console.log(a);
             a.context.classList.remove('active');
         });
         e.target.classList.add("active");
