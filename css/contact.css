@@ -406,4 +406,7 @@ input:focus, textarea:focus, .indent:focus{
     .button.send {
     	margin-left: 85px;
 	}
+    #letter {
+	width: 296px;
+	}
 }
