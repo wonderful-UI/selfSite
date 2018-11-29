@@ -10,12 +10,11 @@ body{
 }
 
 body{
-	font-family: 'Pacifico', cursive;
-	-webkit-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased;
 }
 
 #wrapper{
-	width: 100%;
+  width: 100%;
   height:100%;
   background: hsla(0,0%,5%,.5);
   visibility:hidden;
@@ -224,23 +223,6 @@ body{
 	text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
 }
 
-/*#letter p{
-	color: hsla(0,0%,20%,1);
-	text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
-	font-size: 0.85em;
-	line-height:1.45em;
-	margin: 30px 50px 0 50px;
-}
-
-#letter p:first-letter{
-	color: hsla(0,63%,57%,1);
-	text-shadow: 0px 2px 1px hsla(0,0%,100%,1);
-	font-size: 2.5em;
-	float: left;
-	line-height:0em;
-	padding:10px 10px 0 0;
-}*/
-
 form {
     margin-left:auto;
     margin-right:auto;
@@ -249,7 +231,6 @@ form {
     padding:30px;
     border-radius: 10px;
     overflow: hidden;
-    //background: blue;
     position:relative;
 }
 
@@ -258,7 +239,6 @@ textarea{
     max-width:95%;
     min-height: 110px;
     max-height: 10%;
-    //border: 1px solid #0A0A0A;
     border-radius: 10px;
     background-clip: padding-box;
     display: block;
@@ -345,14 +325,14 @@ select.indent {
 }
 
 :-ms-input-placeholder {
-	  color: #fff;
+	color: #fff;
 }
 
 textarea, input, .indent { outline: none; }
 
 input:focus, textarea:focus, .indent:focus{
-	  background: #ADC6FF;
-     box-shadow    : 0 0 1px 3px #FCB8B8;
-     border        : 1px solid #FCB8B8;
-	  overflow: hidden;
+     background: #ADC6FF;
+     box-shadow: 0 0 1px 3px #FCB8B8;
+     border: 1px solid #FCB8B8;
+     overflow: hidden;
 }
