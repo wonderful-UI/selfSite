@@ -348,4 +348,62 @@ input:focus, textarea:focus, .indent:focus{
    .front h1 {
        padding-top: 68px;
 	}
+    #openDiv {
+	    position: absolute;
+	    top: 5px;
+	    left: 0;
+	    height: 0;
+	    width: 80px;
+	    border-top: 123px solid hsla(0,0%,85%,1);
+	    border-left: 152px solid transparent;
+	    border-right: 151px solid transparent;
+	    transform-origin: center top;
+	    z-index: 10;
+	}
+    #foldsDiv:after {
+	    content: "";
+	    position: absolute;
+	    bottom: -114px;
+	    left: -146px;
+	    height: 0;
+	    width: 80px;
+	    border-bottom: 140px solid hsla(0,0%,95%,1);
+	    border-left: 146px solid transparent;
+	    border-right: 159px solid transparent;
+	}
+    #foldsDiv {
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    width: 0;
+	    height: 0;
+	    border-left: 144px solid hsla(0,0%,90%,1);
+	    border-top: 120px solid transparent;
+	    border-bottom: 120px solid transparent;
+	    z-index: 5;
+	}
+    #foldsDiv:before {
+	    content: "";
+	    position: absolute;
+	    top: -119px;
+	    right: -158px;
+	    width: 0;
+	    height: 0;
+	    border-right: 146px solid hsla(0,0%,90%,1);
+	    border-top: 116px solid transparent;
+	    border-bottom: 116px solid transparent;
+	}
+    .button.con {
+	    margin-left: 105px;
+	    margin-top: 79px;
+	}
+    .nameinput, .emailinput {
+	   width: 236px;
+	}
+    textarea {
+    	width: 236px;
+	}
+    .button.send {
+    	margin-left: 85px;
+	}
 }
