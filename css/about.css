@@ -1,11 +1,8 @@
 @import 'https://code.highcharts.com/css/highcharts.css';
 
-.skillbars {
-    padding-top:80px;
-}
-
 .skillbar {
     position:relative;
+    margin-top: -41px;
     margin-bottom:15px;
     background:#efefef;
     border-radius:5px;
