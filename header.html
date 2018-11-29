@@ -1,0 +1,42 @@
+<!--navigation -->
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-color-on-scroll" color-on-scroll="50" id="sectionsNav">
+    <div class="container" ng-controller="headerCtrl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--Header-->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-title">
+                            <a href="#!/" data-toggle="collapse" data-target=".in" ng-click="navigateToPage($event)">
+                                <p class="active">Home</p>
+                            </a>
+                        </li>
+                        <li class="nav-title">
+                            <a href="#!/about" data-toggle="collapse" data-target=".in" ng-click="navigateToPage($event)">
+                                <p>About Me</p>
+                            </a>
+                        </li>
+                        <li class="nav-title">
+                            <a href="#!/portfolio" data-toggle="collapse" data-target=".in" ng-click="navigateToPage($event)">
+                                <p>Portfolio</p>
+                            </a>
+                        </li>
+                        <li class="nav-title">
+                            <a href="#!/contact" data-toggle="collapse" data-target=".in" ng-click="navigateToPage($event)">
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

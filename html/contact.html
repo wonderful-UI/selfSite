@@ -1,0 +1,42 @@
+<div id="contactDiv">
+    <div id="container-contact">
+      <div class="face front">
+            <div id="white">
+              <h1>Contact Me!<br>
+                <span>--------</span>
+              </h1>
+            </div>
+      </div>
+      <div class="face back">
+            <div id="openDiv"></div>
+            <div id="foldsDiv"></div>
+            <div class="button con" ng-click="openEnvelope()">Click Me!</div>
+            <div id="letter">
+                <hgroup>
+                    <h1 id="info">Phone: xxx.xxx.xxxx</h1>
+                </hgroup>
+
+            <form action="" method="post" novalidate="novalidate" id="myform">
+
+                   <span class="Name">
+                     <input type="text" name="Name" value="" size="40" class="nameinput" aria-required="true" aria-invalid="false" placeholder="Name">
+                  </span>
+
+                  <span class="Email">
+                    <input type="email" name="Email"  size="40" class="emailinput" aria-required="true" aria-invalid="false" placeholder="Email" >
+                  </span>
+
+
+                  <span class="Message">
+                    <textarea name="Message" cols="40" rows="10" aria-invalid="false" placeholder="Message"></textarea>
+                  </span>
+
+                  <button class="button send" ng-click="sendMessage()">Send</button>
+
+          </form>
+
+                </div>
+            </div>
+        </div>
+</div>
+<div id="wrapper"></div>

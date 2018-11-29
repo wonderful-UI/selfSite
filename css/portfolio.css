@@ -1,0 +1,66 @@
+#plane-img{
+    position :absolute;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    from{
+        left:100px;
+        opacity: 0;
+    }
+    to{
+        left: 200px;
+        opacity: 1;
+    }
+}
+#hover-title{
+    position :relative;
+    left:120px;
+    top: 90px;
+}
+#hover-instruction{
+    float:left;
+}
+.container-fluid{
+    width: 1000px;
+    margin-top: 120px;
+}
+figure {
+    height: 15em;
+    margin: 5em;
+    width: 20em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+figure:hover {
+    -webkit-transform: rotateX(90deg) translateY(-2em) translateZ(3em);
+    -moz-transform: rotateX(90deg) translateY(-2em) translateZ(3em);
+    transform: rotateX(90deg) translateY(-2em) translateZ(3em);
+}
+img {
+    background-color: #222;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+figure:hover img {
+    box-shadow: none;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: .5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
