@@ -214,7 +214,7 @@ i{
     margin-left: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   #typed_h1 {
     font-size: 21px;
     font-weight: 500;
