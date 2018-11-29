@@ -336,3 +336,16 @@ input:focus, textarea:focus, .indent:focus{
      border: 1px solid #FCB8B8;
      overflow: hidden;
 }
+
+@media screen and (max-width: 992px) {
+    #container-contact {
+       width: 291px;
+       height: 229px;
+	}
+    #contactDiv {
+       margin-left: -145px;
+	}
+   .front h1 {
+       padding-top: 68px;
+	}
+}
